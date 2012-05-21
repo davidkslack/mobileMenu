@@ -33,4 +33,4 @@ chooseText:   'Please choose' // The text to show when there is no selected opti
 
 Let me know how it goes by commenting.
 
-This is supplied as an 'as-is' plugin and might not work exactly as intended. Let me know if you find any bugs.
+This is supplied as an 'as-is' plugin and might not work exactly as intended (but should ;). Let me know if you find any bugs.
