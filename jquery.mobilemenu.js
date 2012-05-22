@@ -50,7 +50,7 @@
 							.html($(this).html());
 							
 							// Add the selected option
-							if($(this).attr('class').indexOf(options.activeClass) != -1)
+							if(($(this).attr('class'))&&($(this).attr('class').indexOf(options.activeClass) != -1))
 							{
 								option.addClass('selected');
 								option.attr("selected","selected");
