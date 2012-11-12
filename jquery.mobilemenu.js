@@ -29,7 +29,7 @@
 				listElement.each(function(index, value)
 				{
 					// If the menu has been changed don't change it again
-					if((listElement.css('display') == 'block')&&($('.clChangedMenu').length == 0))
+					if((listElement.css('display') != 'none')&&($('.clChangedMenu').length == 0))
 					{
 						// Setup the vars for this and the select list
 						var selectedFlag = false;
